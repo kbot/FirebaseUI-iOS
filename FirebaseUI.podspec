@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Google' do |google|
-    google.dependency 'FirebaseGoogleAuthUI', '~> 13.0'
+    google.dependency 'FirebaseGoogleAuthUI', '~> 13.1.0'
   end
 
   s.subspec 'OAuth' do |oauth|
