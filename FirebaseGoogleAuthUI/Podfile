@@ -5,7 +5,7 @@ platform :ios, '11.0'
 target 'FirebaseGoogleAuthUI' do
   use_frameworks!
 
-  pod 'GoogleSignIn', '~> 7.1.0'
+  pod 'GoogleSignIn', :git => 'https://github.com/google/GoogleSignIn-iOS.git', :commit => '4b4f14b774080066c7351d636e7e8be0441bed55'
   pod 'FirebaseAuthUI', :path => '../'
 
   target 'FirebaseGoogleAuthUITests' do
